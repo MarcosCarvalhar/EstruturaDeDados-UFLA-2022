@@ -1,0 +1,17 @@
+/*// Arruma as posicoes de i para baixo.
+    int esq = Esquerdo(i);
+    int dir = Direito(i);
+    int maior = i;
+
+    if ((esq < mTamanho) and (mVetDados[esq].Media() > mVetDados[maior].Media())) {
+        maior = esq;
+    }
+    
+    if ((dir < mTamanho) and (mVetDados[dir].Media() > mVetDados[maior].Media())) {
+        maior = dir;
+    }
+
+    if (maior != i) {
+        swap(mVetDados[i], mVetDados[maior]); // troca os valores de duas posições
+        ArrumarDescendo(maior);
+    }*/
